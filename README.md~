@@ -15,17 +15,16 @@ Dependency
 Build
 -----
 
-    g++ calibrate.cc -I/opt/local/include/opencv -L/opt/local/lib -lcv -lhighgui - lcxcore -Wall -o calibrate
+`g++ calibrate.cc -I/opt/local/include/opencv -L/opt/local/lib -lcv -lhighgui - lcxcore -Wall -o calibrate`
 
 Usage
 -----
 
-    filter <filterName> [<filenameFlag> <filename>]
+`filter <filterName> [<filenameFlag> <filename>]`
 
 where:
-
-    filterName: [-blur] | [-gauss] | [-sobel] | [-canny] | [-hough] | [-skin]
-    filenameFlag: [-i] | [-v]
+`filterName: [-blur] | [-gauss] | [-sobel] | [-canny] | [-hough] | [-skin]`
+`filenameFlag: [-i] | [-v]`
 
 Documents
 ---------

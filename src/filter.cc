@@ -284,7 +284,7 @@ int main(int argc, char* argv[]){
 		}				
 	}
 	else{
-		cout << "usage: filter <filterName> [<filenameFlag> <filename>]" << endl;
+		cout << "usage: " << argv[0] << " <filterName> [<filenameFlag> <filename>]" << endl;
 		cout << "filterName: [-blur] | [-gauss] | [-sobel] | [-canny] | [-hough] | [-skin]" << endl;
 		cout << "filenameFlag: [-i] | [-v]" << endl;			
 	}

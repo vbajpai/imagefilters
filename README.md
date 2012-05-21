@@ -1,9 +1,6 @@
 Image Filters using OpenCV
 --------------------------
-
-
-Operators Supported
--------------------
+- - -
 
 * Blur
 * Gaussian Blur
@@ -23,25 +20,31 @@ Operators Supported
 
 ![Imgur](http://i.imgur.com/7T0rs.png)
 
-Dependency
-----------
-* OpenCV
 
-Build
------
+Building on Mac OS X
+--------------------
+- - -
 
-    g++ calibrate.cc -I/opt/local/include/opencv -L/opt/local/lib -lcv -lhighgui - lcxcore -Wall -o calibrate
+	>> brew install opencv
+	
+	[imagefilters] >> make
+	
 
-Usage
------
+Building on Ubuntu
+------------------
+- - -
 
-    filter <filterName> [<filenameFlag> <filename>]
-
-where:
-
-    filterName: [-blur] | [-gauss] | [-sobel] | [-canny] | [-hough] | [-skin]
-    filenameFlag: [-i] | [-v]
-
+	>> sudo apt-get install libopencv-dev
+	
+	[imagefilters] >> make
+	
+Running
+-------
+- - -
+	
+	>> bin/imagefilters	
+	
+	
 Documents
 ---------
 
